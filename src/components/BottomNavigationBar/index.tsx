@@ -58,14 +58,15 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'space-around',
-    alignItems: 'stretch',
+    justifyContent: 'space-evenly',
     backgroundColor: '#383e85',
-    padding: 20,
     position: 'absolute',
     left: 0,
     bottom: 0,
     right: 0,
   },
-  iconContainer: {flex: 1, alignItems: 'center'},
+  iconContainer: {
+    alignItems: 'center',
+    padding: 20,
+  },
 });
